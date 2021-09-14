@@ -18,7 +18,7 @@ int main() {
 		cin >> b[i];
 	}
 	sort(b.begin(), b.end());
-	// check if total of volume of the all of the colas is can be accommodated by the 2 largest cans
+	// check if the total of volume of all the colas can be accommodated by the 2 largest cans
 	cout << (sum <= (long long) b[n - 1] + b[n - 2] ? "YES" : "NO") << '\n';
 	return 0;
 }
